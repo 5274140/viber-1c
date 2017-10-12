@@ -81,10 +81,7 @@ elseif ($REQUEST_METHOD=='GET')
 	
 	else{
 		
-		$authDate = auth();
-		
-		header('Content-Type: application/json');
-		$text = ReadData();
+		$text = getInfo();
 		
 	}
 	
